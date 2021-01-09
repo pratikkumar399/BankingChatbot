@@ -1,0 +1,127 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "services",
+            "patterns": [
+                "Which services do you provide ?",
+                "How can you help me ?",
+                "What are the services provided by you?"
+            ],
+            "responses": [
+                "1.I will tell you about your account details, nearby atm services ,  2. I'm a 24*7 accessible bot . 3. You can also Have your transaction details ",
+                "You can ask me your account details , nearby atm services . And besides that you can access me  24*7  throughout the weekend. Also feel free to ask me about your latest transaction details ."
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        },
+        {
+            "tag": "reply",
+            "patterns": [
+                "How often do you reply?"
+
+            ],
+            "responses": [
+
+                "Every time you ask a question I will reply."
+            ]
+        },
+        {
+            "tag": "account",
+            "patterns": [
+                "Tell me my account details!",
+                "Show the balance of my account",
+                "What is my current account balance?"
+            ],
+            "responses": [
+                "Your name is Pratik rai . Your account number is XXXXXXXXX2820. Your account balance is $60000.96",
+                "Your name is Ravi Kumar Rana . Your account number is XXXXXXXXX2830. Your account balance is $90000.76",
+                "Your name is Lovepreet singh . Your account number is XXXXXXXXX2834. Your account balance is $95000.96",
+                "Your name is Guneet singh . Your account number is XXXXXXXXX2825. Your account balance is $80000.96",
+                "Your name is Rikanksha Sharma . Your account number is XXXXXXXXX5859. Your account balance is $700000.96"
+
+            ]
+        },
+        {
+            "tag": "transaction",
+            "patterns": [
+                "Tell me my latest transction details!",
+                "Show the balance of my latest transction",
+                "What is my latest transction detail?"
+            ],
+            "responses": [
+                "Your name is Pratik rai . Your account number is XXXXXXXXX2820. Your latest transaction  is $600.96",
+                "Your name is Ravi Kumar Rana . Your account number is XXXXXXXXX2830. Your latest transaction  is $900.76",
+                "Your name is Lovepreet singh . Your account number is XXXXXXXXX2834. Your latest transaction  is $50.96",
+                "Your name is Guneet singh . Your account number is XXXXXXXXX2825. Your latest transaction  is $100.96",
+                "Your name is Rikanksha Sharma . Your account number is XXXXXXXXX5859. Your latest transaction  is $800.96"
+            ]
+        }, {
+            "tag": "complaint",
+            "patterns": [
+                "Why is my account balance yet not updated?",
+                "Why I am not able to get my account details?",
+                "My card has been stolen .Can you block it?"
+            ],
+            "responses": [
+                "Your issue has been reported . It will be forwarded to concerned authorities . And it will be resolved in 2 working days .",
+                "Your request is accepted . It will be completed within 2 working days ."
+            ]
+        }, {
+            "tag": "transfer",
+            "patterns": [
+                "Send 500 dollars to Gunnet's account",
+                "Send 800 dollars to Ravi's account",
+                "Send 900 dollars to Love's account",
+                "Send 600 dollars to Rikanksha's account",
+                "Send 500 dollars to Pratik's account"
+
+
+            ],
+            "responses": [
+                "Done, sir."
+
+            ]
+        }
+    ]
+}
